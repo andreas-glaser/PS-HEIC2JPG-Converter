@@ -49,24 +49,24 @@ A PowerShell script to convert HEIC files to JPEG using ImageMagick. This tool i
 Run the script using the following syntax:
 
 ```powershell
-.\heic2jpg.ps -TargetDirectory "Path\To\Your\Directory" [-Recurse] [-MoveToTrash] [-EnableLogging] [other parameters]
+.\heic2jpg.ps1 -TargetDirectory "Path\To\Your\Directory" [-Recurse] [-MoveToTrash] [-EnableLogging] [other parameters]
 ```
 
 ### Examples
 
 - **Convert files in a directory (non-recursive, with default move to trash):**
   ```powershell
-  .\heic2jpg.ps -TargetDirectory "C:\Images\HEIC"
+  .\heic2jpg.ps1 -TargetDirectory "C:\Images\HEIC"
   ```
 
 - **Convert files in a directory without moving originals:**
   ```powershell
-  .\heic2jpg.ps -TargetDirectory "C:\Images\HEIC" -MoveToTrash:$false
+  .\heic2jpg.ps1 -TargetDirectory "C:\Images\HEIC" -MoveToTrash:$false
   ```
 
 - **Convert files recursively with logging enabled:**
   ```powershell
-  .\heic2jpg.ps -TargetDirectory "C:\Images\HEIC" -Recurse -EnableLogging
+  .\heic2jpg.ps1 -TargetDirectory "C:\Images\HEIC" -Recurse -EnableLogging
   ```
 
 ## Parameters
