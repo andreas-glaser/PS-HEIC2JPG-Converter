@@ -1,4 +1,3 @@
-```markdown
 # PS-HEIC2JPG Converter
 
 A PowerShell script to convert HEIC files to JPEG using ImageMagick. This tool is designed to be simple, efficient, and user-friendly, offering features such as unique filename generation, detailed conversion statistics (file sizes, conversion time), a progress bar, and configurable options for logging and moving original files to the Recycle Bin.
@@ -105,4 +104,3 @@ Run the script using the following syntax:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
